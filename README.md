@@ -2,7 +2,7 @@
 
 **This is a project for term 2 year 1 OAMK B.Eng ICT**
 
-**What does this project do ? And what's it purposes ?**
+**What does this project do ? And what's it purposes ?**  
   This project is a simple one that combines basic knowledge in **Math**, **JavaScript**, **Html**, and **CSS**, and create a **simple** but *reponsive* website.  
   The result website is be capable of doing :  
    * Convert number between 4 different numbering systems: Binary, Octal, Decimal, and Hexadecimal.  
