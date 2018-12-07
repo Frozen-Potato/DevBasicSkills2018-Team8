@@ -69,3 +69,47 @@
     .dropdown:hover .dropdown-content {display: block;}
     
     .dropdown:hover .dropbtn {background-color: #3e718e73;}
+    .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        width: 60%;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: #555;
+      }
+      
+      .cont {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #f1f1f1;
+        width: 57%;
+      }
+
+#mytable {
+    width:100%;
+}
+#mytable tbody tr td:first-child {
+    width:25%;
+    color:red;
+}
+#mytable tbody tr td:first-child + td {
+    width:25%;
+    color:green;
+}
+#mytable tbody tr td:first-child + td + td {
+    width:25%;
+    color:blue;
+}
+#mytable tbody tr td:first-child + td + td + td {
+    width: 25%;
+    color: blueviolet;
+}
