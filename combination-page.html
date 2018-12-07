@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+        <title>Combinations</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <meta charset="utf-8">
+       
+</head>
+<body class="body">
+        <h1> <i class="fas fa-bars" style="font-size: 1.4em;"></i>   </h1>
+        <div class="container">
+                        
+                <div class="header">
+                
+                        <h1>Combinations</h1>
+
+
+                </div>
+                <div class="sidemenu float">
+                                <h2 class="info">What are Combinations?</h2>
+
+<p><br> A Combination is a type of calculation that tells us how many ways we can gather together a set of things without regard to the order in gathering those things. It is the action of joining or merging of different parts or qualities in which the component elements are individually distinct.<br> The general formula for working with combinations is: <br> <img class="picture" src=https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/be21eae92ceda7a78ac8b0042e7b7407.png> </p>  </div>
+
+
+<div class="content float">
+
+<h1> Calculator </h1>
+<h2> n = total number of items <br> k = number of items being chosen at a time <br></h2>
+
+<hr />
+
+<h2> Enter two numbers: <input type="text" placeholder="n" id="n" /> <input type="text" placeholder="r" id="r" /> <button id="calculate">calculate</button></h2>
+
+<hr />
+
+<h3><strong>Number of combinations possible:</strong> <span id="result"></span> </h3>
+
+<script>
+
+
+function factorial(number){
+    var value = number;
+    for ( var i = number; i > 1; i-- )
+      value *= i - 1;
+    return value;
+  };
+  function combination(n, r){
+    if ( n == r) return 1;
+    return factorial(n) / (factorial(r) * factorial(n - r));
+  };
+  
+  document.getElementById('calculate').onclick = function(){
+    var n = parseFloat(document.getElementById('n').value),
+        r = parseFloat(document.getElementById('r').value);
+    if ( n && r ){
+      document.getElementById('result').innerHTML = combination(n,r);
+    }
+  };
+
+
+
+</script>
+
+</div>
+
+
+
+
+
+         </div>
+</body>
+
+
+
+</html>
