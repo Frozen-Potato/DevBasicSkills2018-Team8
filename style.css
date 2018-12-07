@@ -113,3 +113,68 @@
     width: 25%;
     color: blueviolet;
 }
+
+.multi-level, .item ul, .nav input[type="checkbox"] {
+    display: none;
+}
+#menu:checked ~ .multi-level, .item input:checked ~ ul {
+    display: block;
+}
+
+
+
+.item input:hover ~ ul {
+    display: block;
+}
+
+label:hover {
+    cursor: pointer;
+}
+label {
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+.nav {
+    width: 10%;
+    overflow-x: hidden;
+
+}
+
+#nav-icon {
+    font-size: 45px;
+    line-height: 50px;
+    padding-left: 0em;
+    color: black;
+
+}
+
+.nav ul, .nav li, label {
+    line-height: 50px;
+    margin: 0;
+    padding: 0 2em;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    width: 100%;
+}
+
+.item ul {
+    padding: 0 0.25em;
+}
+
+
+.nav ul:hover {
+    display: block;
+}
+.nav li a {
+    line-height: 50px;
+    margin: 0;
+    padding: 0 2em;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
