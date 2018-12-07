@@ -9,6 +9,15 @@
 
     }
 
+    input {
+        width: 30px;
+        text-align: center;
+      }
+      code {
+        background: #eee;
+      }
+
+
     .float {
         float: left;
     }
