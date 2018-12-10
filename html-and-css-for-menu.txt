@@ -1,14 +1,14 @@
 HTML
 
 <ul class="menu">
-                <li><a href="#">Combinatorics</a></li>
-                <li><a href="#">Number Systems</a>
+                <li><a href="combination-page.html">Combinatorics</a></li>
+                <li><a>Number Systems</a>
                 <ul>
-                <li><a href="#">table</a></li>
-                <li><a href="#">Conversion</a></li>
+                <li><a href="numberSystem-table.html">table</a></li>
+                <li><a href="numberSystem-converter.html">Conversion</a></li>
                 </ul>
                 </li>
-                <li><a href="#">Truth Tables</a></li>
+                <li><a href="second-page.html">Truth Tables</a></li>
                 <li><a href="#">Random Values</a></li>
             
         </ul>
