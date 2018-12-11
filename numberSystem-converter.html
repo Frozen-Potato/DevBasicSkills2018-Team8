@@ -2,7 +2,8 @@
 <html lang=en>
         <head>
                 <title>Number converter</title>
-               
+                <meta charset="utf-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <link rel="stylesheet" href="style.css">
 
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -10,12 +11,28 @@
         </head>
         <body class= "body">
                 <div class="container">
-                                <h1> <i class="fas fa-bars" style="font-size: 1.4em;"></i>   </h1>
+                                <h1> <ul class="menu">
+                                                <li><a href="combination-page.html">Combinatorics</a></li>
+                                                <li><a>Number Systems</a>
+                                                <ul>
+                                                <li><a href="numberSystem-table.html">table</a></li>
+                                                <li><a href="numberSystem-converter.html">Conversion</a></li>
+                                                </ul>
+                                                </li>
+                                                <li><a href="second-page.html">Truth Tables</a></li>
+                                                <li><a href="#">Random Values</a></li>   </h1>
                         <div class="header">
                                 <h1>Converter</h1>
                         </div>
 
-                        <div class="sidemenu float"></div>
+                        <div class="sidemenu float">
+                                <h2 class="info">What are number systems?</h2>
+                                <p><br>There are four different systems in number system which are: Decimal, Binary, Octal and Hexadecimal</p>
+                                <p>Base 10 (Decimal) — Represent any number using 10 digits [0–9]<br>
+                                 Base 2 (Binary) — Represent any number using 2 digits [0–1]<br>
+                                 Base 8 (Octal) — Represent any number using 8 digits [0–7]<br>
+                                 Base 16(Hexadecimal) — Represent any number using 10 digits and 6 characters [0–9, A, B, C, D, E, F]</p>
+                        </div>
                         <div class="content float">
                                 <input type="text" id="input" value="0">
                                 <select id="OgNumberType">
