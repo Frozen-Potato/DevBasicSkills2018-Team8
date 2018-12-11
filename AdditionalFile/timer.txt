@@ -1,195 +1,195 @@
 .container2 svg tspan > tspan:nth-of-type(12) {
-	 animation: draw 300ms 2025ms forwards;
+	 animation: draw 300ms 2040ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(13) {
-	 animation: draw 300ms 2100ms forwards;
+	 animation: draw 300ms 2130ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(14) {
-	 animation: draw 300ms 2175ms forwards;
+	 animation: draw 300ms 2220ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(15) {
-	 animation: draw 300ms 2250ms forwards;
+	 animation: draw 300ms 2310ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(16) {
-	 animation: draw 300ms 2325ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(17) {
 	 animation: draw 300ms 2400ms forwards;
  }
+.container2 svg tspan > tspan:nth-of-type(17) {
+	 animation: draw 300ms 2490ms forwards;
+ }
 .container2 svg tspan > tspan:nth-of-type(18) {
-	 animation: draw 300ms 2475ms forwards;
+	 animation: draw 300ms 2580ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(19) {
-	 animation: draw 300ms 2550ms forwards;
+	 animation: draw 300ms 2670ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(20) {
-	 animation: draw 300ms 2625ms forwards;
+	 animation: draw 300ms 2760ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(21) {
-	 animation: draw 300ms 2700ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(22) {
-	 animation: draw 300ms 2775ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(23) {
 	 animation: draw 300ms 2850ms forwards;
  }
+.container2 svg tspan > tspan:nth-of-type(22) {
+	 animation: draw 300ms 2940ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(23) {
+	 animation: draw 300ms 3030ms forwards;
+ }
 .container2 svg tspan > tspan:nth-of-type(24) {
-	 animation: draw 300ms 2925ms forwards;
+	 animation: draw 300ms 3120ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(25) {
-	 animation: draw 300ms 3000ms forwards;
+	 animation: draw 300ms 3210ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(26) {
-	 animation: draw 300ms 3075ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(27) {
-	 animation: draw 300ms 3150ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(28) {
-	 animation: draw 300ms 3225ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(29) {
 	 animation: draw 300ms 3300ms forwards;
  }
+.container2 svg tspan > tspan:nth-of-type(27) {
+	 animation: draw 300ms 3390ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(28) {
+	 animation: draw 300ms 3480ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(29) {
+	 animation: draw 300ms 3570ms forwards;
+ }
 .container2 svg tspan > tspan:nth-of-type(30) {
-	 animation: draw 300ms 3375ms forwards;
+	 animation: draw 300ms 3660ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(31) {
-	 animation: draw 300ms 3450ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(32) {
-	 animation: draw 300ms 3525ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(33) {
-	 animation: draw 300ms 3600ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(34) {
-	 animation: draw 300ms 3675ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(35) {
 	 animation: draw 300ms 3750ms forwards;
  }
+.container2 svg tspan > tspan:nth-of-type(32) {
+	 animation: draw 300ms 3840ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(33) {
+	 animation: draw 300ms 3930ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(34) {
+	 animation: draw 300ms 4020ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(35) {
+	 animation: draw 300ms 4110ms forwards;
+ }
 .container2 svg tspan > tspan:nth-of-type(36) {
-	 animation: draw 300ms 3825ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(37) {
-	 animation: draw 300ms 3900ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(38) {
-	 animation: draw 300ms 3975ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(39) {
-	 animation: draw 300ms 4050ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(40) {
-	 animation: draw 300ms 4125ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(41) {
 	 animation: draw 300ms 4200ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(42) {
-	 animation: draw 300ms 4275ms forwards;
+.container2 svg tspan > tspan:nth-of-type(37) {
+	 animation: draw 300ms 4290ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(43) {
-	 animation: draw 300ms 4350ms forwards;
+.container2 svg tspan > tspan:nth-of-type(38) {
+	 animation: draw 300ms 4380ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(44) {
-	 animation: draw 300ms 4425ms forwards;
+.container2 svg tspan > tspan:nth-of-type(39) {
+	 animation: draw 300ms 4470ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(45) {
-	 animation: draw 300ms 4500ms forwards;
+.container2 svg tspan > tspan:nth-of-type(40) {
+	 animation: draw 300ms 4560ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(46) {
-	 animation: draw 300ms 4575ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(47) {
+.container2 svg tspan > tspan:nth-of-type(41) {
 	 animation: draw 300ms 4650ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(48) {
-	 animation: draw 300ms 4725ms forwards;
+.container2 svg tspan > tspan:nth-of-type(42) {
+	 animation: draw 300ms 4740ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(49) {
-	 animation: draw 300ms 4800ms forwards;
+.container2 svg tspan > tspan:nth-of-type(43) {
+	 animation: draw 300ms 4830ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(50) {
-	 animation: draw 300ms 4875ms forwards;
+.container2 svg tspan > tspan:nth-of-type(44) {
+	 animation: draw 300ms 4920ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(51) {
-	 animation: draw 300ms 4950ms forwards;
+.container2 svg tspan > tspan:nth-of-type(45) {
+	 animation: draw 300ms 5010ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(52) {
-	 animation: draw 300ms 5025ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(53) {
+.container2 svg tspan > tspan:nth-of-type(46) {
 	 animation: draw 300ms 5100ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(54) {
-	 animation: draw 300ms 5175ms forwards;
+.container2 svg tspan > tspan:nth-of-type(47) {
+	 animation: draw 300ms 5190ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(55) {
-	 animation: draw 300ms 5250ms forwards;
+.container2 svg tspan > tspan:nth-of-type(48) {
+	 animation: draw 300ms 5280ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(56) {
-	 animation: draw 300ms 5325ms forwards;
+.container2 svg tspan > tspan:nth-of-type(49) {
+	 animation: draw 300ms 5370ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(57) {
-	 animation: draw 300ms 5400ms forwards;
+.container2 svg tspan > tspan:nth-of-type(50) {
+	 animation: draw 300ms 5460ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(58) {
-	 animation: draw 300ms 5475ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(59) {
+.container2 svg tspan > tspan:nth-of-type(51) {
 	 animation: draw 300ms 5550ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(60) {
-	 animation: draw 300ms 5625ms forwards;
+.container2 svg tspan > tspan:nth-of-type(52) {
+	 animation: draw 300ms 5640ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(61) {
-	 animation: draw 300ms 5700ms forwards;
+.container2 svg tspan > tspan:nth-of-type(53) {
+	 animation: draw 300ms 5730ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(62) {
-	 animation: draw 300ms 5775ms forwards;
+.container2 svg tspan > tspan:nth-of-type(54) {
+	 animation: draw 300ms 5820ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(63) {
-	 animation: draw 300ms 5850ms forwards;
+.container2 svg tspan > tspan:nth-of-type(55) {
+	 animation: draw 300ms 5910ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(64) {
-	 animation: draw 300ms 5925ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(65) {
+.container2 svg tspan > tspan:nth-of-type(56) {
 	 animation: draw 300ms 6000ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(66) {
-	 animation: draw 300ms 6075ms forwards;
+.container2 svg tspan > tspan:nth-of-type(57) {
+	 animation: draw 300ms 6090ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(67) {
-	 animation: draw 300ms 6150ms forwards;
+.container2 svg tspan > tspan:nth-of-type(58) {
+	 animation: draw 300ms 6180ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(68) {
-	 animation: draw 300ms 6225ms forwards;
+.container2 svg tspan > tspan:nth-of-type(59) {
+	 animation: draw 300ms 6270ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(69) {
-	 animation: draw 300ms 6300ms forwards;
+.container2 svg tspan > tspan:nth-of-type(60) {
+	 animation: draw 300ms 6360ms forwards;
  }
-.container2 svg tspan > tspan:nth-of-type(70) {
-	 animation: draw 300ms 6375ms forwards;
- }
-.container2 svg tspan > tspan:nth-of-type(71) {
+.container2 svg tspan > tspan:nth-of-type(61) {
 	 animation: draw 300ms 6450ms forwards;
  }
+.container2 svg tspan > tspan:nth-of-type(62) {
+	 animation: draw 300ms 6540ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(63) {
+	 animation: draw 300ms 6630ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(64) {
+	 animation: draw 300ms 6720ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(65) {
+	 animation: draw 300ms 6810ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(66) {
+	 animation: draw 300ms 6900ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(67) {
+	 animation: draw 300ms 6990ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(68) {
+	 animation: draw 300ms 7080ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(69) {
+	 animation: draw 300ms 7170ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(70) {
+	 animation: draw 300ms 7260ms forwards;
+ }
+.container2 svg tspan > tspan:nth-of-type(71) {
+	 animation: draw 300ms 7350ms forwards;
+ }
 .container2 svg tspan > tspan:nth-of-type(72) {
-	 animation: draw 300ms 6525ms forwards;
+	 animation: draw 300ms 7440ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(73) {
-	 animation: draw 300ms 6600ms forwards;
+	 animation: draw 300ms 7530ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(74) {
-	 animation: draw 300ms 6675ms forwards;
+	 animation: draw 300ms 7620ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(75) {
-	 animation: draw 300ms 6750ms forwards;
+	 animation: draw 300ms 7710ms forwards;
  }
 .container2 svg tspan > tspan:nth-of-type(76) {
-	 animation: draw 300ms 6825ms forwards;
+	 animation: draw 300ms 7800ms forwards;
  }
