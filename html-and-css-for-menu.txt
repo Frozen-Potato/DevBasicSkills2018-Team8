@@ -27,7 +27,7 @@ ul {
 }
 ul li{
     float: left;
-    width: 200px;
+    width: 25%;
     height: 40px;
     line-height: 40px;
     text-align: center;
@@ -44,6 +44,7 @@ ul li a:hover {
 }
 ul li ul li{
     display: none;
+    width: 50%;
 }
 ul li:hover ul li{
     display: block;
