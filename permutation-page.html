@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=en>
 <head>
-        <title>Combinations</title>
+        <title>Permutations</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <meta charset="utf-8">
@@ -22,14 +22,16 @@
                         
                 <div class="header">
                 
-                        <h1>Combinations</h1>
+                        <h1>Permutations</h1>
 
 
                 </div>
                 <div class="sidemenu float">
-                                <h2 class="info">What are Combinations?</h2>
+                                <h2 class="info">What are Permutations?</h2>
 
-<p><br> A Combination is a type of calculation that tells us how many ways we can gather together a set of things without regard to the order in gathering those things. It is the action of joining or merging of different parts or qualities in which the component elements are individually distinct.<br> The general formula for working with combinations is: <br> <img class="picture" src=https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/be21eae92ceda7a78ac8b0042e7b7407.png> </p>  </div>
+<p><br> A permutation is an arrangement of all or part of a set of objects, with regard to the order of the arrangement.
+
+    For example, suppose we have a set of three letters: A, B, and C. We might ask how many ways we can arrange 2 letters from that set. Each possible arrangement would be an example of a permutation. The complete list of possible permutations would be: AB, AC, BA, BC, CA, and CB.<br> The general formula for working with permutations is: <br> <img class="picture2" src=https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/7164200acc9606cf3547c31ddc023cdd.png> </p>  </div>
 
 
 <div class="content float">
@@ -43,7 +45,7 @@
 
 <hr />
 
-<h3><strong>Number of combinations possible:</strong> <span id="result"></span> </h3>
+<h3><strong>Number of permutations possible:</strong> <span id="result"></span> </h3>
 
 <script>
 
@@ -68,12 +70,12 @@ function factorial(number){
     if (n < r){
       document.getElementById('result').innerHTML = inspect(n, r);
     }
-    if (n<0 || r<0){
+    if (n < 0 || r  <0){
       document.getElementById('result').innerHTML = check(n,r);
     }
   };
 
-  function inspect(n, r)
+ function inspect(n, r)
 {
   if (n < r) return "'k' may not be greater than 'n'";
   return combination(n,r);

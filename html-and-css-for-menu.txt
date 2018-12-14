@@ -1,0 +1,51 @@
+HTML
+
+<ul class="menu">
+                <li><a href="combination-page.html">Combinatorics</a></li>
+                <li><a>Number Systems</a>
+                <ul>
+                <li><a href="numberSystem-table.html">table</a></li>
+                <li><a href="numberSystem-converter.html">Conversion</a></li>
+                </ul>
+                </li>
+                <li><a href="second-page.html">Truth Tables</a></li>
+                <li><a href="#">Random Values</a></li>
+            
+        </ul>
+
+
+
+CSS
+
+.menu {
+    border-bottom: 1px solid white;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 25%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover {
+    background-color: gray;
+}
+ul li ul li{
+    display: none;
+    width: 50%;
+}
+ul li:hover ul li{
+    display: block;
+}
