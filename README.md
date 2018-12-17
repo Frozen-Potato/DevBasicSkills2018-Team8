@@ -20,15 +20,9 @@
 * Source code for the website.  
 * Imagines.  
 ---
-
-**Intruction to use the website offline :**  
----
-
 **Author :**  
 1. Pham Gia Kien    (mcfkcoding@gmail.com or t8phgi00@students.oamk.fi)  
 2. Ibrahim Elwazer  (t8elib00@students.oamk.fi)  
 3. Mafas Dhaimash   (t8dhma00@students.oamk.fi)   
 ---
 
-**References :**  
----
