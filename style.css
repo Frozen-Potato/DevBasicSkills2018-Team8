@@ -308,9 +308,9 @@ html {
 }
 
 .buttonrun {
-    width: 60px;
+    width: auto;
     height: 40px;
-    font-size: 25;
+    font-size: 25px;
 }
 
 .float3 {
@@ -319,4 +319,14 @@ html {
     height: auto;
     background-color: orange;
     border: solid orange;
+}
+#mytable2 {
+    border: 1px #000000;
+}
+
+.inputbox2 {
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+
 }

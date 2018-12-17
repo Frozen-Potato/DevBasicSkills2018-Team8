@@ -25,7 +25,7 @@ function randomN() {
                         }
                 }
         }
-        var html = '<table id="result">';
+        var html = '<table id="mytable2">';
         html += '<tr>';
         html += '<td>' + (begin) + '-' + (a[0]) + '</td>';
         for (var i = 1; i < numberOfRange-1; i++) {
