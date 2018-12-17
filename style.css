@@ -273,6 +273,38 @@ ul li:hover ul li{
 }
 
 html {
-    background-color: rgb(196, 196, 214) ; 
+    background-color: rgb(153, 152, 150) ; 
     text-align: center;
+}
+
+.float2{
+   margin: auto;
+   font-size: 35px;
+   height: auto;
+   background-color: orange;
+   border: solid orange;
+}
+
+.sidemenu2 {
+    border: 3px solid rgb(20, 20, 20);
+        width: 30%;
+        height: auto;
+        box-sizing: border-box;
+        border-style: solid ;
+        padding: 16px;
+        border-radius: 10px ;
+        background-color: white;
+        font-size: 25;
+}
+
+.inputbox {
+    width: 60px;
+    height: auto;
+    font-size: 25;
+}
+
+.buttonrun {
+    width: 60px;
+    height: 40px;
+    font-size: 25;
 }

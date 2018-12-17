@@ -6,7 +6,7 @@ function randomN() {
         var begin = Number(document.getElementById("begin").value);
         var end = Number(document.getElementById("end").value);
         var numberOfRan = Number(document.getElementById("noor").value);
-        var numberOfRange = Number(document.getElementById("noorg").value);
+        var numberOfRange = 10;
         var a = [];
         var int = 0;
         var b = [];
@@ -25,7 +25,7 @@ function randomN() {
                         }
                 }
         }
-        var html = '<table>';
+        var html = '<table id="result">';
         html += '<tr>';
         html += '<td>' + (begin) + '-' + (a[0]) + '</td>';
         for (var i = 1; i < numberOfRange-1; i++) {
@@ -40,4 +40,5 @@ function randomN() {
         html += '</tr>';
         html += '</table>';
         document.getElementById("result").innerHTML = html;
+
 }
