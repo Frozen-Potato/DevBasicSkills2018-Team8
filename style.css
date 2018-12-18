@@ -24,7 +24,7 @@
 
     .sidemenu {
         border: 3px solid rgb(20, 20, 20);
-        width: 30%;
+        width: 39%;
         height: 400px;
         box-sizing: border-box;
         border-style: solid ;
@@ -62,7 +62,7 @@ padding-left: 70px ;
     left: 50%;
 
     margin: -10px 30px 50px -190px;
-    background-color: orange;
+    background-color: rgb(236, 180, 75);
    
 
 
@@ -82,7 +82,7 @@ padding-left: 70px ;
     left: 50%;
 
     margin: -10px 0 0 -190px;
-    background-color: orange;
+    background-color: rgb(236, 180, 75);
 
 
 
@@ -101,7 +101,7 @@ padding-left: 70px ;
     left: 50%;
 
     margin: -10px 0 0 -190px;
-    background-color: orange;
+    background-color: rgb(236, 180, 75);
 
 }
 
@@ -118,7 +118,7 @@ padding-left: 70px ;
         left: 50%;
   
         margin: -10px 0 0 -190px;
-        background-color: orange;
+        background-color: rgb(236, 180, 75);
 
     }
     .table {
@@ -134,7 +134,7 @@ padding-left: 70px ;
         left: 50%;
   
         margin: -80px 0 0 -190px;
-        background-color: orange;
+        background-color: rgb(236, 180, 75);
 
     }
     .td,th {
@@ -153,7 +153,6 @@ padding-left: 70px ;
     .body {
 
         background-color: rgb(153, 152, 150) ; 
-        text-
     }
     
     .dropdown {
@@ -225,22 +224,23 @@ padding-left: 70px ;
 
 #mytable {
     width:100%;
+    background-color: rgb(236, 180, 75);
+    color : black;
 }
 #mytable tbody tr td:first-child {
     width:25%;
-    color:red;
+    
 }
 #mytable tbody tr td:first-child + td {
     width:25%;
-    color:green;
+    
 }
 #mytable tbody tr td:first-child + td + td {
     width:25%;
-    color:blue;
+    
 }
 #mytable tbody tr td:first-child + td + td + td {
     width: 25%;
-    color: blueviolet;
 }
 
 .menu {
@@ -285,8 +285,8 @@ html {
    margin: auto;
    font-size: 35px;
    height: auto;
-   background-color: orange;
-   border: solid orange;
+   background-color: rgb(236, 180, 75);
+   border: solid rgb(236, 180, 75);
 }
 
 .sidemenu2 {
@@ -317,11 +317,33 @@ html {
     margin: auto;
     font-size: 18px;
     height: auto;
-    background-color: orange;
-    border: solid orange;
+    background-color: rgb(236, 180, 75);
+    border: solid rgb(236, 180, 75);
 }
 #mytable2 {
-    border: 1px #000000;
+    width: 100%;
+    padding: 2px;
+    border-collapse: collapse;
+}
+
+#mytable2 td {
+    border: 1px solid black;
+}
+
+#mytable2 tr:first-child td {
+    border-top: 0;
+}
+
+#mytable2 tr:last-child td {
+    border-bottom: 0;
+}
+
+#mytable2 tr td:first-child{
+    border-left: 0;
+}
+
+#mytable2 tr td:last-child {
+    border-right: 0;
 }
 
 .inputbox2 {

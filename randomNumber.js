@@ -27,6 +27,7 @@ function randomN() {
         }
         var html = '<table id="mytable2">';
         html += '<tr>';
+        html += '<td><b>Class Interval</b></td>' 
         html += '<td>' + (begin) + '-' + (a[0]) + '</td>';
         for (var i = 1; i < numberOfRange-1; i++) {
                 html += '<td>' + (a[i-1] + 1) + '-' + (a[i]) + '</td>';
@@ -34,6 +35,7 @@ function randomN() {
         html += '<td>' + (a[numberOfRange-2] + 1) + '-' + (end) + '</td>';
         html += '</tr>';
         html += '<tr>';
+        html += '<td><b>Distubution</b></td>'
         for (var i = 0; i < numberOfRange; i++) {
                 html += '<td>' + (b[i]) + '</td>';
         }
