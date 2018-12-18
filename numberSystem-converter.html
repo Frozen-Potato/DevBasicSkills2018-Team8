@@ -1,49 +1,80 @@
 <!DOCTYPE html>
 <html lang=en>
-        <head>
-                <title>Number converter</title>
-                <meta charset="utf-8" />
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <link rel="stylesheet" href="style.css">
 
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-                <script src="Converter.js"></script>
-        </head>
-        <body class= "body">
-                <div class="container">
-                                <h1> <i class="fas fa-bars" style="font-size: 1.4em;"></i>   </h1>
-                        <div class="header">
-                                <h1>Converter</h1>
-                        </div>
+<head>
+        <title>Number converter</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
 
-                        <div class="sidemenu float">
-                                <h2 class="info">What are number systems?</h2>
-                                <p><br>There are four different systems in number system which are: Decimal, Binary, Octal and Hexadecimal</p>
-                                <p>Base 10 (Decimal) — Represent any number using 10 digits [0–9]<br>
-                                 Base 2 (Binary) — Represent any number using 2 digits [0–1]<br>
-                                 Base 8 (Octal) — Represent any number using 8 digits [0–7]<br>
-                                 Base 16(Hexadecimal) — Represent any number using 10 digits and 6 characters [0–9, A, B, C, D, E, F]</p>
-                        </div>
-                        <div class="content float">
-                                <input type="text" id="input" value="0">
-                                <select id="OgNumberType">
-                                    <option value="10">Decimal</option>
-                                    <option value="2">Binary</option>
-                                    <option value="16">Haxdecimal</option>
-                                    <option value="8">Octal</option>
-                                </select>
-                                <select id="EndNumberType">
-                                    <option value="10">Decimal</option>
-                                    <option value="2">Binary</option>
-                                    <option value="16">Hexdecimal</option>
-                                    <option value="8">Octal</option>
-                                </select>
-                                <button onclick="SaveInput()">Convert</button>    
-                                <p id="Result"></p>
-                        </div>
-                        <div class="clearer"></div>
-                        <div class="footer"></div>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+                crossorigin="anonymous">
+        <script src="Converter.js"></script>
+</head>
+
+<body class="body">
+        <div class="container">
+                <h1>
+                        <ul class="menu">
+                                <li><a href="combination-page.html">Combinations</a>
+                                </li>
+                                <li><a>Number Systems</a>
+                                        <ul>
+                                                <li><a href="numberSystem-table.html">Table</a></li>
+                                                <li><a href="numberSystem-converter.html">Converter</a></li>
+                                        </ul>
+                                </li>
+                                <li><a href="second-page.html">Truth Tables</a></li>
+                                <li><a href="randomNumber.html">Random Values</a></li>
+                </h1>
+                <div class="header">
+                        <h1>Converter</h1>
                 </div>
 
-        </body>
+                <div class="sidemenu2 float">
+                        <h2 class="info">What are number systems?</h2>
+                        <p><br>There are four different systems in number system which are: Decimal, Binary, Octal and
+                                Hexadecimal</p>
+                        <p>Base 10 (Decimal) — Represent any number using 10 digits [0–9]<br>
+                                Base 2 (Binary) — Represent any number using 2 digits [0–1]<br>
+                                Base 8 (Octal) — Represent any number using 8 digits [0–7]<br>
+                                Base 16(Hexadecimal) — Represent any number using 10 digits and 6 characters [0–9, A,
+                                B, C, D, E, F]</p>
+                </div>
+                <div class="sidemenu float2">
+                        <p> Enter: <input class="inputbox2" type="text" id="input" value="0"></p>
+                        <hr />
+                        <p> From: <select class="inputbox2" id="OgNumberType">
+                                <option value="10">Decimal</option>
+                                <option value="2">Binary</option>
+                                <option value="16">Haxdecimal</option>
+                                <option value="8">Octal</option>
+                        </select> </p>  
+                        <hr />
+                        <p>To: <select class="inputbox2" id="EndNumberType">
+                                <option value="10">Decimal</option>
+                                <option value="2">Binary</option>
+                                <option value="16">Hexadecimal</option>
+                                <option value="8">Octal</option>
+                        </select></p>
+                        <hr />
+                        <button class="buttonrun" onclick="SaveInput()">Convert</button>
+                        <hr />
+                        <p id="Result"></p>
+                </div>
+                <div class="clearer"></div>
+                <div class="footer"></div>
+        </div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
 </html>
